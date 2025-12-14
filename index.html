@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Louis Surette | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <!-- HEADER / NAVBAR -->
+  <header class="header">
+    <nav class="navbar">
+      <a href="index.html" class="project-link2"><div class="logo">Louis Surette</div></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode">
+          Dark Mode
+        </button>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-subtitle">Frontend Developer</p>
+      <h1>Hello, I’m <span class="highlight">Louis</span>.</h1>
+      <p class="hero-text">
+       I’m a frontend developer with a passion for crafting interfaces that feel intuitive
+        and delightful. I enjoy working across the stack from clean HTML/CSS to interactive
+        JavaScript, turning ideas into polished digital products. I put a strong emphasis on
+        accessibility, performance, and thoughtful interaction design.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">View My Work</a>
+        <a href="resume.pdf" class="btn btn-outline" download>
+          Download Resume
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-inner">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-text">
+         I’m a Front-End Developer with 9 years of experience spanning engineering, automation, data tools, 
+        and modern web development. My career began in renewable energy and industrial automation, 
+        where I strengthened my problem-solving mindset and worked on systems requiring precision and reliability. 
+        <br><br>
+       
+        After relocating to Canada, I moved into a bilingual client-facing role where I supported customers in both English and French. 
+        During that time, I developed a strong interest in technology and was given opportunities to automate workflows and build 
+        internal tools using Power Apps, SharePoint, and Power Automate. These projects eventually led me to build custom SPFx 
+        applications using TypeScript, which solidified my path toward front-end development. I’ve also designed and delivered 40+ websites on Wix, 
+        including AGM and Special Meeting microsites used by public companies for shareholder communications.
+         These projects strengthened my skills in responsive design, UX, and fast-turnaround development for high-visibility events.
+        <br><br>
+        
+        I’m currently completing the Full-Stack Development Certificate at Toronto Metropolitan University, 
+        expanding my skills in React, Node.js, API integration, and modern development workflows.
+        <br><br>
+        
+        Bilingual in English and French, I’m passionate about creating responsive, user-centered interfaces 
+        that improve efficiency and deliver clear, meaningful experiences.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="section-inner">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills-container">
+        <div class="skill-card">HTML5</div>
+        <div class="skill-card">CSS3 / Flexbox / Grid</div>
+        <div class="skill-card">JavaScript (ES6+)</div>
+        <div class="skill-card">Wix Website Design</div>
+        <div class="skill-card">GitHub</div>
+        <div class="skill-card">UI / UX</div>
+        <div class="skill-card">PowerApps</div>
+        <div class="skill-card">Power Automate</div>
+        <div class="skill-card">Project Management</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-inner">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card">
+          <div class="project-image-wrapper">
+            <a href="Wix.html" target="_blank"><img
+              src="img/project1.jpg"
+              alt="Screenshot of a modern landing page project"
+              class="project-image"
+            /></a>
+          </div>
+          <div class="project-content">
+            <a href="Wix.html" target="_blank" class="project-link2"></a><h3>Wix Webistes</h3></a>
+            <p>
+              Wix websites that do more than look good - they drive results. From smooth layouts to optimized performance and mobile-ready designs, 
+              here’s a collection of sites I’ve crafted for real clients.
+            </p>
+            <a href="Wix.html" target="_blank" class="project-link">View Live</a>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+          <div class="project-image-wrapper">
+            <img
+              src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg"
+              alt="Screenshot of an e-commerce layout"
+              class="project-image"
+            />
+          </div>
+          <div class="project-content">
+            <h3>To Update</h3>
+            <p>
+              A product grid and detail layout focused on clarity, hierarchy, and a smooth shopping experience.
+            </p>
+            <a href="#" target="_blank" class="project-link">View Live</a>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+          <div class="project-image-wrapper">
+            <img
+              src="https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg"
+              alt="Screenshot of a personal portfolio website"
+              class="project-image"
+            />
+          </div>
+          <div class="project-content">
+            <h3>To Update</h3>
+            <p>
+              A fully responsive portfolio with scroll animations and a tailored visual system for a creative client.
+            </p>
+            <a href="#" target="_blank" class="project-link">View Live</a>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card">
+          <div class="project-image-wrapper">
+            <img
+              src="https://images.pexels.com/photos/2706379/pexels-photo-2706379.jpeg"
+              alt="Screenshot of a dashboard project"
+              class="project-image"
+            />
+          </div>
+          <div class="project-content">
+            <h3>To Update</h3>
+            <p>
+              A dashboard layout exploring data visualization, cards, and responsive panels using pure HTML/CSS/JS.
+            </p>
+            <a href="#" target="_blank" class="project-link">View Live</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="section-inner">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-text">
+        Have a project in mind or want to collaborate? Reach out and let’s build something great.
+      </p>
+
+      <!---ready form -->
+
+<form action="https://formsubmit.co/louis.emilien.surette@gmail.com" method="POST" class="contact-form">
+  
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+
+  <input type="hidden" name="_next" value="https://stirring-swan-292c8d.netlify.app/thankyou">
+
+  <button type="submit" class="btn">Send Message</button>
+</form>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2025 Louis Surette. All rights reserved.</p>
+  </footer>
+
+  <!-- GSAP & ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- Main Script -->
+  <script src="script.js"></script>
+</body>
+</html>
