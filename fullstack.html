@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Louis Surette | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <!-- HEADER / NAVBAR -->
+  <header class="header">
+    <nav class="navbar">
+      <a href="index.html" class="project-link2"><div class="logo">Louis Surette</div></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode">
+          Dark Mode
+        </button>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+
+    <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-inner">
+      <h2 class="section-title">FULL-STACK WEB APPLICATIONS</h2>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card">
+          <div class="project-image-wrapper">
+            <a href="https://animeworld-l85h.onrender.com/index" target="_blank"><img
+              src="img/fullstack1.jpg"
+              alt="Screenshot of a modern landing page project"
+              class="project-image"
+            /></a>
+          </div>
+          <div class="project-content">
+            <a href="https://animeworld-l85h.onrender.com/index" target="_blank" class="project-link2"><h3>Animeworld</h3></a>
+            <p>
+              Anime World is a full-stack web application built with Flask and PostgreSQL.
+It displays products dynamically from a database and allows users to place orders.
+Orders include shipping details and automatically calculate total cost based on region. <br>
+The system updates product stock after each order and stores all data in PostgreSQL.
+It also includes a contact form for sending messages stored in the database.
+            </p>
+            <a href="https://animeworld-l85h.onrender.com/index" target="_blank" class="project-link">View Live</a><br>
+            <a href="https://github.com/louissurette5dev/animeworld" target="_blank" class="project-link">View GitHub Repo</a>
+            <a href="https://animeworld-l85h.onrender.com/order/list" target="_blank" class="project-link">Check Orders Placed</a>
+            <a href="https://animeworld-l85h.onrender.com/message/list" target="_blank" class="project-link">Check Message Received</a>
+          </div>
+        </article>
+
+         
+      </div>
+
+      
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+    <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2025 Louis Surette. All rights reserved.</p>
+  </footer>
+
+  <!-- GSAP & ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- Main Script -->
+  <script src="script.js"></script>
+</body>
+</html>
